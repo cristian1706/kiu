@@ -1,0 +1,347 @@
+[
+{
+    "model": "flights.city",
+    "pk": 1,
+    "fields": {
+        "code": "BUE",
+        "name": "Buenos Aires"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 2,
+    "fields": {
+        "code": "MAD",
+        "name": "Madrid"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 3,
+    "fields": {
+        "code": "PDM",
+        "name": "Palma de Mallorca"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 4,
+    "fields": {
+        "code": "LON",
+        "name": "London"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 5,
+    "fields": {
+        "code": "PAR",
+        "name": "Paris"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 6,
+    "fields": {
+        "code": "AMS",
+        "name": "Amsterdam"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 7,
+    "fields": {
+        "code": "BRC",
+        "name": "Barcelona"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 8,
+    "fields": {
+        "code": "LIS",
+        "name": "Lisbon"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 9,
+    "fields": {
+        "code": "BER",
+        "name": "Berlin"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 10,
+    "fields": {
+        "code": "ROM",
+        "name": "Rome"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 11,
+    "fields": {
+        "code": "WAR",
+        "name": "Warsaw"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 12,
+    "fields": {
+        "code": "PRA",
+        "name": "Prague"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 13,
+    "fields": {
+        "code": "VIE",
+        "name": "Vienna"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 14,
+    "fields": {
+        "code": "BRA",
+        "name": "Bratislava"
+    }
+},
+{
+    "model": "flights.city",
+    "pk": 15,
+    "fields": {
+        "code": "COP",
+        "name": "Copenhagen"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 1,
+    "fields": {
+        "from_city": 1,
+        "to_city": 2,
+        "code": "XX1234"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 2,
+    "fields": {
+        "from_city": 1,
+        "to_city": 3,
+        "code": "YY1234"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 3,
+    "fields": {
+        "from_city": 1,
+        "to_city": 7,
+        "code": "EE1234"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 4,
+    "fields": {
+        "from_city": 1,
+        "to_city": 4,
+        "code": "ZZ1234"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 5,
+    "fields": {
+        "from_city": 1,
+        "to_city": 9,
+        "code": "DD1234"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 6,
+    "fields": {
+        "from_city": 2,
+        "to_city": 1,
+        "code": "AA1234"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 7,
+    "fields": {
+        "from_city": 2,
+        "to_city": 3,
+        "code": "BB1234"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 8,
+    "fields": {
+        "from_city": 2,
+        "to_city": 7,
+        "code": "GG1234"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 9,
+    "fields": {
+        "from_city": 3,
+        "to_city": 2,
+        "code": "CC1234"
+    }
+},
+{
+    "model": "flights.flight",
+    "pk": 10,
+    "fields": {
+        "from_city": 3,
+        "to_city": 1,
+        "code": "FF1234"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 1,
+    "fields": {
+        "flight": 1,
+        "departure_on": "2024-11-09T15:15:48.175Z",
+        "arrival_on": "2024-11-10T03:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 2,
+    "fields": {
+        "flight": 1,
+        "departure_on": "2024-11-10T15:15:48.175Z",
+        "arrival_on": "2024-11-11T03:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 3,
+    "fields": {
+        "flight": 1,
+        "departure_on": "2024-11-11T15:15:48.175Z",
+        "arrival_on": "2024-11-12T03:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 4,
+    "fields": {
+        "flight": 1,
+        "departure_on": "2024-11-12T15:15:48.175Z",
+        "arrival_on": "2024-11-13T03:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 5,
+    "fields": {
+        "flight": 1,
+        "departure_on": "2024-11-13T15:15:48.175Z",
+        "arrival_on": "2024-11-14T03:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 6,
+    "fields": {
+        "flight": 7,
+        "departure_on": "2024-11-10T04:15:48.175Z",
+        "arrival_on": "2024-11-10T06:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 7,
+    "fields": {
+        "flight": 7,
+        "departure_on": "2024-11-10T05:15:48.175Z",
+        "arrival_on": "2024-11-10T07:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 8,
+    "fields": {
+        "flight": 7,
+        "departure_on": "2024-11-10T06:15:48.175Z",
+        "arrival_on": "2024-11-10T08:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 9,
+    "fields": {
+        "flight": 7,
+        "departure_on": "2024-11-10T07:15:48.175Z",
+        "arrival_on": "2024-11-10T09:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 10,
+    "fields": {
+        "flight": 7,
+        "departure_on": "2024-11-10T08:15:48.175Z",
+        "arrival_on": "2024-11-10T10:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 22,
+    "fields": {
+        "flight": 2,
+        "departure_on": "2024-11-09T17:15:48.175Z",
+        "arrival_on": "2024-11-10T05:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 23,
+    "fields": {
+        "flight": 2,
+        "departure_on": "2024-11-10T17:15:48.175Z",
+        "arrival_on": "2024-11-11T05:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 24,
+    "fields": {
+        "flight": 2,
+        "departure_on": "2024-11-11T17:15:48.175Z",
+        "arrival_on": "2024-11-12T05:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 25,
+    "fields": {
+        "flight": 2,
+        "departure_on": "2024-11-12T17:15:48.175Z",
+        "arrival_on": "2024-11-13T05:15:48.175Z"
+    }
+},
+{
+    "model": "flights.flightevent",
+    "pk": 26,
+    "fields": {
+        "flight": 2,
+        "departure_on": "2024-11-13T17:15:48.175Z",
+        "arrival_on": "2024-11-14T05:15:48.175Z"
+    }
+}
+]
